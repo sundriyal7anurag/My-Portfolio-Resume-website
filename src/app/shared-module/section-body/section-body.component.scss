@@ -1,4 +1,6 @@
-.zoom-card {
+.card-container{
+  margin-left: 5px;
+  .zoom-card {
   background-color: #ffffff; /* Card background */
   padding: 20px; /* Card padding */
   margin-top: 50px;
@@ -8,6 +10,7 @@
   border: 1px solid #e1e1e1; /* Card border */
   margin-left: auto; /* Center the card horizontally */
   margin-right: auto; /* Center the card horizontally */
+}
 }
 
 .card-width {
