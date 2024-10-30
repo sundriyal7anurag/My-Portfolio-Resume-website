@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { sideNavfullObj } from './constants/constantsStructure';
+import { sideNavData } from './constants/constantsData';
+// import { sideNavfullObj } from './constants/constantsStructure';
+// import { sideNavData } from './constants/constantsData';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-Resume-Application';
+  mySideNavData: sideNavfullObj = sideNavData
+  isSidebarCollapsed = false;
+
+  onSidebarCollapsed(collapsed: boolean): void {
+    this.isSidebarCollapsed = collapsed;
+    console.log("isSidebarCollapsed=",this.isSidebarCollapsed)
+  }
 }
