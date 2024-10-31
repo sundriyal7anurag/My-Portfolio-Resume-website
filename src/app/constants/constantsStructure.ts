@@ -6,6 +6,7 @@ export interface listObj {
   projectOverview?: string;
   role?: string;
   responsibilities?: Array<string>;
+  organisation?: string
 }
 
 export interface textbody {

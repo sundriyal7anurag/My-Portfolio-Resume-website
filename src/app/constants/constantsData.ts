@@ -40,12 +40,28 @@ export const skillsHeader: string = 'Skill and Expertise';
 
 export const experienceData: Array<listObj> = [
   {
+    title: 'Dynamic Website Transformation',
+    date: '2024 - present',
+    duration: '2 Months',
+    projectOverview:
+      'Converted a static site to a dynamic, API-driven platform, enhancing the website’s interactivity and engagement.',
+    role: 'Angular Developer',
+    organisation: "Infosys Limited",
+    responsibilities: [
+      'Shifted the site to a dynamic structure, focusing on user engagement through enhanced interactivity.',
+      'Integrated REST APIs, providing real-time data updates for a more responsive experience.',
+      "Managed component data communication using Angular's Input/Output decorators.",
+      'Applied performance optimizations to ensure a smooth user experience.',
+    ],
+  },
+  {
     title: 'Automated User Assistance Bot Interface',
     date: '2024 - 2024',
     duration: '8 Months',
     projectOverview:
       'Designed and developed an interactive chatbot interface aimed at global deployment to enhance real-time user support. This project provided a centralized, responsive tool for user assistance, increasing engagement and user satisfaction for internal and external clients.',
     role: 'Angular UI Developer',
+    organisation: "Infosys Limited",
     responsibilities: [
       'Crafted a seamless chatbot interface focusing on intuitive, user-friendly interaction.',
       'Employed Angular routing to streamline navigation and improve user workflow.',
@@ -60,6 +76,7 @@ export const experienceData: Array<listObj> = [
     projectOverview:
       'Created a React-based management portal to centralize employee information, streamline performance tracking, and provide administrative tools for an efficient, data-driven workflow.',
     role: 'React UI Developer',
+    organisation: "Infosys Limited",
     responsibilities: [
       'Spearheaded the UI development, implementing responsive components for optimal viewing across devices.',
       'Utilized React hooks for effective state management and data flow.',
@@ -67,26 +84,12 @@ export const experienceData: Array<listObj> = [
       'Connected the app to live data using Axios, ensuring real-time, accessible updates for efficient resource management.',
     ],
   },
-  {
-    title: 'Dynamic Website Transformation',
-    date: '2024 - present',
-    duration: '2 Months',
-    projectOverview:
-      'Converted a static site to a dynamic, API-driven platform, enhancing the website’s interactivity and engagement.',
-    role: 'Angular Developer',
-    responsibilities: [
-      'Shifted the site to a dynamic structure, focusing on user engagement through enhanced interactivity.',
-      'Integrated REST APIs, providing real-time data updates for a more responsive experience.',
-      "Managed component data communication using Angular's Input/Output decorators.",
-      'Applied performance optimizations to ensure a smooth user experience.',
-    ],
-  },
+  
 ];
 
 export const homeData: textbody = {
-  description1:
-    "Hey2! I'm Anurag Sundriyal 👋</br> A UI Developer with a knack for crafting smooth, user-friendly web apps. With skills in Angular and React, I’ve worked on projects like chatbot UIs for instant support and employee management tools to simplify workflows. My goal? Building intuitive and efficient digital experiences.",
-  highlight: [
+  description1: "Hey! <b> I'm Anurag Sundriyal 👋 </b> </br>I'm a UI Developer with a knack for crafting smooth, user-friendly web apps. With skills in Angular and React,  I’ve built projects ranging from chatbot interfaces for instant support to employee management tools to simplify workflows. After graduating from <b>Graphic Era Hill University </b>, I joined <b> Infosys Ltd. </b> in <b> 2020 </b> , and since then I have working there where I've been advancing my expertise and delivering impactful digital solutions. My goal? Crafting intuitive and efficient digital experiences.",
+    highlight: [
     'Angular | React | TypeScript',
     'RESTful APIs | Node.js | Express.js',
     'SCSS | Responsive Web Design | Performance Optimization',
