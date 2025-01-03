@@ -165,8 +165,7 @@ export const sideNavData: sideNavfullObj = {
   name: 'Anurag Sundriyal',
   profileImgUrl: 'assets/AnuragSundriyalPP.jpg',
   designation: 'Angular Developer',
-  resumeUrl:
-    'https://drive.google.com/uc?export=download&id=1KpLomoVUvWH_3jbuYO-XGgmCXveF3Ke1',
+  resumeUrl: 'https://drive.google.com/uc?export=download&id=1Y6HbvmbsMUoXglhSZyQwGqF2FexpvUp7',
   resumeIcon: 'assets/icons/download.png',
   navLinks: [
     { title: 'Home', navLinkUrl: '/home', navIcon: 'assets/icons/home.png' },
